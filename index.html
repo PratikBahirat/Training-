@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: flexbox;
+            border: solid 1px red;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> Order invoice </h1>
+    <table width="400">
+        <tr style="text-align: left; padding: 5px;">
+        <th>Product Name</th>
+        <th>Qty</th>
+        <th>Unit Price</th>
+        <th>final Price</th>
+        </tr>
+        <tr>
+        <td>Maggie</td>
+        <td>
+        <button onclick="onClick(event)" id="button1">-</button>
+        <span id="result">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button onclick="onClick(event)" id="button2">+</button>
+        </td>
+        <td>20</td>
+        <td> 20</td>
+        </tr>
+        <tr>
+            <td>Pepsi</td>
+            <td>
+                <button onclick="onClick(event)" id="button1">-</button>
+                <span id="result">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <button onclick="onClick(event)" id="button2">+</button>
+                </td>
+                <td> 15</td>
+                <td>15</td>
+            
+        </tr>
+        
+        </table>
+        <script src="app.js">
+
+        </script>
+</body>
+
+</html>
